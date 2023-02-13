@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="div1">
+  <input type="number" id="operand1">
+  <!--    <h3>+</h3>-->
+  <span>+</span>
+  <!--    +-->
+  <input type="number" id="operand2">
+
+  <button id="sumBtn">Sum</button>
+  =
+  <span id="result"></span>
+</div>
+<div id="div2">
+    <input type="number" id="operand3">
+    <!--    <h3>+</h3>-->
+    <span>+</span>
+    <!--    +-->
+    <input type="number" id="operand4">
+
+    <button id="mBtn">Mult</button>
+    =
+    <span id="result2"></span>
+</div>
+
+<script>
+let operand1 = document.querySelector('#operand1');
+let operand2 = document.querySelector('#operand2');
+let sumBtn = document.querySelector('#sumBtn');
+let result = document.querySelector('#result');
+sumBtn.onclick = function(){
+    let res = +operand1.value + +operand2.value;
+    result.innerText = res;
+    console.log(res);
+
+
+}
+let operand3 = document.querySelector('#operand3');
+let operand4 = document.querySelector('#operand4');
+let mBtn = document.querySelector('#mBtn');
+let result2 = document.querySelector('#result2');
+mBtn.onclick=function(){
+let res2 = +operand3.value * +operand4.value;
+    result2.innerText = res2;
+    console.log(res2);
+}
+</script>
+</body>
+</html>

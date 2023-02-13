@@ -1,0 +1,22 @@
+<div id="div2">
+    <input type="number" id="operand3">
+    <!--    <h3>+</h3>-->
+    <span>+</span>
+    <!--    +-->
+    <input type="number" id="operand4">
+
+    <button id="mBtn">Mult</button>
+    =
+    <span id="result2"></span>
+</div>
+
+
+let operand3 = document.querySelector('#operand3');
+let operand4 = document.querySelector('#operand4');
+let mBtn = document.querySelector('#mBtn');
+let result2 = document.querySelector('#result2');
+mBtn.onclick=function(){
+let res2 = +operand3.value * +operand4.value;
+    result2.innerText = res2;
+    console.log(res2);
+}
