@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="174494c2-5499-4cac-8888-8ccdaea5e70f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/mystule.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/calculator2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/calculator2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
