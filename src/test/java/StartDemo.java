@@ -10,7 +10,7 @@ public class StartDemo {
 
 @BeforeMethod
     public void preCondition(){
-wd=new ChromeDriver();
+        wd=new ChromeDriver();
     }
 @Test
     public void testLogin(){
